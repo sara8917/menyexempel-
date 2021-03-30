@@ -1,23 +1,95 @@
-ul {
+.navbar {
   list-style-type: none; 
   margin: 0; 
   padding: 0; 
-  overflow: hidden;
-  background-color: #333;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-li {
+.navbar li{
   float: left;
 }
 
-li a {
+.navbar li a {
   display: block; 
-  color: white; 
+  color: 000; 
   text-align: center; 
   padding: 14px 16px; 
   text decoration: none; 
+  text-align: center;
 }
 
-li a:hover {
+.navbar li a:hover {
   background-color: #111; 
+  color: white;
 } 
+
+.ordered {
+  background: #FD8A00;
+  padding: 20px;
+  width: 20%;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.3em;
+
+}
+
+.ordered li {
+  background: #FFCF95;
+  padding: 5px;
+  margin-left: 20px;
+
+}
+
+.custom-box-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  
+}
+
+.custom-box-list li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+
+}
+
+.custom-box-list li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: rgb(105,105,105);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+
+}
+
+.list-image {
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.list-image li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 170%;
+
+}
+
+.list-image li:before {
+  content: counter(step-counter);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('cat.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
