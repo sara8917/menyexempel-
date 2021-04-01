@@ -137,3 +137,34 @@
   transform: translateY(-50%)
 
 }
+
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse; 
+}
+
+th, td {
+  padding: 15px;  
+}
+
+td { 
+  text-align: center; 
+} 
+
+caption {
+
+caption-side: bottom;
+
+text-align: center;
+
+font-style: italic;
+
+font-weight: bold;
+
+color: black;
+
+}
