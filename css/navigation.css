@@ -139,3 +139,14 @@
 }
 
 
+
+table, td, th {
+  border: 5px solid black;
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+
