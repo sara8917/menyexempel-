@@ -81,24 +81,20 @@
 }
 
 .list-image {
-
-list-style: none;
-
-padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 
 }
 
 .list-image li {
-position: relative;
-
-padding-left: 30px;
-
-line-height: 170%;
+  position: relative;
+  padding-left: 30px;
+  line-height: 170%;
 
 }
 
 .list-image li:before {
-  content: '';
+  content: counter(step-counter);
   width: 20px;
   height: 20px;
   position: absolute;
@@ -110,10 +106,6 @@ line-height: 170%;
   transform: translateY(-50%)
 
 }
-
-
-
-
 
 
 
@@ -145,4 +137,3 @@ line-height: 170%;
   transform: translateY(-50%)
 
 }
-
