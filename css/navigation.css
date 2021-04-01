@@ -94,7 +94,7 @@
 }
 
 .list-image li:before {
-  content: counter(step-counter);
+  content: 'yo';
   width: 20px;
   height: 20px;
   position: absolute;
@@ -125,7 +125,7 @@
 }
 
 .popular-sites li:before {
-  content: '';
+  content: 'pink-cosmos';
   width: 20px;
   height: 20px;
   position: absolute;
@@ -139,21 +139,21 @@
 }
 
 
-table, td, th {
-  border: 1px solid black;
+table, th,td {
+
+border: 1px solid black;
+
+border-collapse: collapse;
+
 }
 
-table {
-  border-collapse: collapse; 
-}
+th,td {
 
-th, td {
-  padding: 15px;  
-}
+padding: 15px;
 
-td { 
-  text-align: center; 
-} 
+text-align: center;
+
+}
 
 caption {
 
@@ -166,5 +166,31 @@ font-style: italic;
 font-weight: bold;
 
 color: black;
+
+}
+
+.table-simple th {
+
+background-color: black;
+
+color: white;
+
+}
+
+.table-simple tr:nth-child(even) {
+
+background-color: #ececec;
+
+}
+
+.table-simple tr:nth-child(odd) {
+
+background-color: #fff;
+
+}
+
+.table-simple tr:hover {
+
+background-color: #acffe3;
 
 }
