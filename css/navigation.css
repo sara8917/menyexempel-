@@ -94,11 +94,11 @@
 }
 
 .list-image li:before {
-  content: 'yo';
+  content: '';
   width: 20px;
   height: 20px;
   position: absolute;
-  background-image: url('yo');
+  background-image: url('cat (1)');
   background-size: cover;
   background-position: center;
   left: 0;
@@ -125,7 +125,7 @@
 }
 
 .popular-sites li:before {
-  content: 'pink-cosmos';
+  content: '';
   width: 20px;
   height: 20px;
   position: absolute;
