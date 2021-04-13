@@ -222,3 +222,7 @@ background-color: rgb(227, 231, 233);
 font-weight:bold ;
 
 }
+
+.head-body-foot thead:hover {
+
+background-color: #acffe3;
