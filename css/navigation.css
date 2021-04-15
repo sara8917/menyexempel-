@@ -243,7 +243,7 @@ margin: 0 auto;
 }
 
 <style>
-table.GeneratedTable {
+.myown {
   width: 70%;
   background-color: #fef0ff;
   border-collapse: collapse;
@@ -253,14 +253,14 @@ table.GeneratedTable {
   color: #590769;
 }
 
-table.GeneratedTable td, table.GeneratedTable th {
+myown td, myown th {
   border-width: 3px;
   border-color: #3a203c;
   border-style: double;
   padding: 5px;
 }
 
-table.GeneratedTable thead {
+myown thead {
   background-color: #fff0fe;
 }
 </style>
