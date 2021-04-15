@@ -242,25 +242,8 @@ margin: 0 auto;
 
 }
 
-<style>
-table.GeneratedTable {
-  width: 70%;
-  background-color: #fef0ff;
-  border-collapse: collapse;
-  border-width: 3px;
-  border-color: #3a203c;
-  border-style: double;
-  color: #590769;
-}
 
-table.GeneratedTable td, table.GeneratedTable th {
-  border-width: 3px;
-  border-color: #3a203c;
-  border-style: double;
-  padding: 5px;
-}
-
-myown {
+.myown {
   background-color: #fef0ff;
   border-color: #3a203c;
   border-style: double;
