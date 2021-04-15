@@ -232,6 +232,12 @@ background-color: #acffe3;
 }
 
 
-.scrollbar {
+.scroll-bar {
   overflow-x: auto; 
+}
+
+.table-image {
+
+margin: 0 auto;
+
 }
