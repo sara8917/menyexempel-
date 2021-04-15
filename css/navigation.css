@@ -261,6 +261,9 @@ table.GeneratedTable td, table.GeneratedTable th {
 }
 
 myown {
-  background-color: #fff0fe;
+  background-color: #fef0ff;
+  border-color: #3a203c;
+  border-style: double;
+  color: #590769;
 }
 </style>
