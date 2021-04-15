@@ -230,3 +230,8 @@ font-weight:bold ;
 
 background-color: #acffe3;
 }
+
+
+.scrollbar {
+  overflow-y: auto; 
+}
