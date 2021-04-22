@@ -254,5 +254,11 @@ margin: 0 auto;
 
 .myown {
   font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+
 }
+
+
+
+<table style='font-family:"myown", Courier, monospace; font-size:80%' ...>...</table>
+
+
